@@ -1,5 +1,5 @@
 ;  Made with Add Signature v2.00 by BoB / BobSoft / A.S.L Sign Maker v0.1
-;  4433 Signatures in list - 2020.07.10
+;  4437 Signatures in list - 2021.01.15
 
 [!EP (ExE Pack) V1.0 -> Elite Coding Group]
 signature = 60 68 ?? ?? ?? ?? B8 ?? ?? ?? ?? FF 10
@@ -17730,5 +17730,21 @@ ep_only = true
 
 [Installer Nullsoft PiMP Stub v.3.0.x - A.S.L ]
 signature = 81 EC ?? 02 00 00 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? FF 15 ?? 80 40 00
+ep_only = true
+
+[ Embarcadero Delphi compiler XE7 - 2014 sign ASL ( 64 bit exe ) ]
+signature = 55 48 83 EC 20 48 8B EC 90 48 8D 0D ?? ?? FF FF E8 ?? ?? ?? FF 48 8B 05 ?? ?? ?? 00 48 8B 08 E8 ?? ?? ?? FF 48 8B 05 ?? ?? ?? 00 48 8B 08
+ep_only = true
+
+[ Lazarus v1.x FPC 3.1.x - sign A.S.L ( exe C6 xx ) ]
+signature = C6 05 ?? ?? ?? 00 00 B9 00 ?? ?? ?? BA 04 ?? ?? ?? B8 50 ?? ?? 00 E8 45 FF FF FF E8 50 FF FF FF B8 10 ?? ?? 00 E8 ?? ?? 01 00 C3 00 00 00 00 00 55 89 
+ep_only = true
+
+[Tiny C Compiler + tjs ( exe ) sign A.S.L  ( 64 bit ) ]
+signature = 55 48 89 E5 48 81 EC 40 00 00 00 48 B8 04 00 00 00 00 00 00 00 49 89 C0 B8 00 00 00 00 49 89 C3 48 8D 45 FC 49 89 C2 4C 89 D1 4C 89 DA E8 ?? 02 00 00 
+ep_only = true
+
+[Tiny C Compiler + tjs ( DLL ) sign A.S.L ( 64 bit ) ]
+signature = 55 48 89 E5 48 81 EC 30 00 00 00 48 89 4D 10 48 89 55 18 4C 89 45 20 8B 45 18 83 F8 01 0F 85 2D 00 00 00 48 B8 00 00 00 00 00 00 00 00 49 89 C0 48 B8 
 ep_only = true
 

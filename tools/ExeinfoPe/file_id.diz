@@ -1,12 +1,12 @@
 ------------------------------------------------------------------
 
 Program name : Exeinfo Pe
-Version      : 0.0.6.3 Final - 2020  ( 1086 + 100 signatures x64 ) 
-             : Ext_detector - v5.6.8 ( 568 non exe signatures )
-             : external signatures : userdb.txt : 4433
+Version      : 0.0.6.5 - 2021 IV ( 1088 + 101 signatures x64 ) 
+             : Ext_detector - v5.9.5 ( 595 non exe signatures )
+             : external signatures : userdb.txt : 4437
 Author	     : A.S.L Soft
 E-Mail       : asl@onet.eu
-WWW          : http://www.exeinfo.xn.pl  mirror :  www.exeinfo.o7.pl
+WWW          : http://www.exeinfo.xn.pl  /   www.exeinfo.pe.hu
 Category     : Exe detector / Data detector / Exe Tools
 Description  : Detect packer / protector / compiler / .NET obfuscator
 Register     : Freeware
@@ -24,12 +24,28 @@ Requirements : min. 486, 666MHz
 
 
  info : many changes and updates old signatures
-        - Fast scan on multifiles
-        - This version load and scan one file faster 
-        Section GUI - Pre-Scan Button !
-        fixed VMProtect / Themida-Winlicence detector
-        Shell support : Die v.3.0
-        and more ...
+        Themida/Winlicense fix ( NonSt. OEP code detector "dummy" )
+        Autoit v3.3.12.0 - v3.3.15.3 ( UPX )
+        Installer - Astrum InstallWizard 2.2x 
+        WINDEV Express v.26
+        Eazfuscator.NET v2020.2-4
+        Embarcadero fix 32 / 64
+        GUI many changes , Config , Multiscan
+        fixed save overlay
+        added Multiscan - hiew colors button
+                        - back Dir button
+        pre scan added : [ Real .NET reloc section ]
+                         UPX packed sec.II Del/Emb.32 
+                         UPX packed sec.II Del/Emb.64 
+        .NET Detector detect v4.x and v5.02/3
+        CPU Info added on Config GUI
+        Buffer 255 MB for exe files
+        Don't close/crash on big files
+
+
+
+
+
 
 
 
