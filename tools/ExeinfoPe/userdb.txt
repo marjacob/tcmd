@@ -1,5 +1,5 @@
 ;  Made with Add Signature v2.00 by BoB / BobSoft / A.S.L Sign Maker v0.1
-;  4437 Signatures in list - 2021.01.15
+;  4446 Signatures in list - 2022.01.15
 
 [!EP (ExE Pack) V1.0 -> Elite Coding Group]
 signature = 60 68 ?? ?? ?? ?? B8 ?? ?? ?? ?? FF 10
@@ -17746,5 +17746,41 @@ ep_only = true
 
 [Tiny C Compiler + tjs ( DLL ) sign A.S.L ( 64 bit ) ]
 signature = 55 48 89 E5 48 81 EC 30 00 00 00 48 89 4D 10 48 89 55 18 4C 89 45 20 8B 45 18 83 F8 01 0F 85 2D 00 00 00 48 B8 00 00 00 00 00 00 00 00 49 89 C0 48 B8 
+ep_only = true
+
+[api-ms-win DLL - mov eax,1 ( 64 bit ) ]
+signature = B8 01 00 00 00 3B D0 75 02 33 C0 C3 CC
+ep_only = true
+
+[Mupack2 by mudlord 32 exe/dll  sign A.S.L ]
+signature = BB 00 00 00 00 EB 03 C2 0C 00 8D 83 00 ?? ?? ?? 53 50 8D 83 66 ?? ?? ?? FF D0 8D 83 ?? ?? ?? ?? FF E0
+ep_only = true
+
+[Go compiler v1.17.2 sign ASL ( 64 bit ) ]
+signature = E9 ?? C3 FF FF CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC 9C FC 48 81 EC E0 00 00 00 48 89 3C 24 48 89 74 24 08 
+ep_only = true
+
+[MS VC++ DLL library ( eax=1 ) sign A.S.L ]
+signature = 33 C0 40 C2 0C 00
+ep_only = true
+
+[Alienyze Protector v1.4 (x86) - alienyze.com , sign ASL ]
+signature = 55 8B EC 81 EC ?? 01 00 00 53 56 64 A1 30 00 00 00 89 ?? ?? ?? ?? ?? 8B ?? ?? ?? ?? ?? 8B ?? ?? ?? ?? ?? 8B
+ep_only = true
+
+[ElecKey R9 v2.0.9.35 Sciensoft.com sign ASL ]
+signature = E8 01 00 00 00 90 90 58 05 ?? ?? ?? 00 90 90 90 90 90 90 90 90 90 90 FF E0 
+ep_only = true
+
+[ElecKey R9 v2.0.9.35 - sign ASL ( 64 bit ) ]
+signature = 41 50 41 51 51 52 57 53 55 56 E8 00 00 00 00 5B 48 B8 ?? 04 00 00 00 00 00 00 48 2B D8 48 8B EB 81 BB 16 01 00 00 56 26 4E 2E 75 29 48 33 C0 8B 83 1E 
+ep_only = true
+
+[Xojo compiler 3.1  exe - sign ASL  ( 64 bit ) ]
+signature = 48 83 EC 28 E8 ?? 02 00 00 48 83 C4 28 E9 7E FE FF FF CC CC 48 83 EC 28 48 8D 0D 0D 00 00 00 E8 ?? ?? 00 00 33 C0 48 83 C4 28 C3 CC 48 83 EC 28 48 8B 
+ep_only = true
+
+[Go language v 1.16.12 - sign ASL ( 64 bit ) ]
+signature = E9 ?? ?? FF FF CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC 9C 48 83 EC 70 48 89 7C 24 50 48 89 74 24 48 48 89 6C 
 ep_only = true
 
